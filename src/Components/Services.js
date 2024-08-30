@@ -1,5 +1,6 @@
 import React from 'react';
 import { Code, Smartphone, PenTool, TestTube, MoreHorizontal } from 'lucide-react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Footer } from '../Footer';
 
 const ServiceCard = ({ title, icon: Icon, description }) => (
@@ -42,12 +43,12 @@ const Services = () => {
   ];
 
   return (
-    <div className="py-12 px-4 sm:px-6 lg:px-8 bg-dark text-light min-vh-100 p-4">
+    <div className="py-12 px-4 sm:px-6 lg:px-8 bg-dark text-light min-vh-100 p-4" >
       <div className="max-w-7xl mx-auto">
         <h1 className="text-3xl font-extrabold text-white text-center mb-12">Our Services</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {services.map((service, index) => (
-            <ServiceCard key={index} {...service} />
+            <ServiceCard key={index} {...service} className="bg-dark text-light" />
           ))}
         </div>
       </div>
