@@ -1,16 +1,6 @@
 import React from "react";
 import "./About.css";
-import Navbar from "./Navbar";
 import "./Navbar.css";
-import { Footer } from "../Footer";
-import {
-  FileJson,
-  Figma,
-  GitBranch,
-  Database,
-  Terminal,
-  Code,
-} from "lucide-react";
 import Icon from "@mui/material/Icon";
 
 const About = () => {

@@ -1,8 +1,5 @@
 import React from 'react';
-import { Github, Moon, Gitlab } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { Footer } from '../Footer';
-import Navbar from './Navbar';
 
 const ProjectLink = ({ name, url }) => (
     <div className="mb-2">

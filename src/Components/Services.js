@@ -1,7 +1,6 @@
 import React from 'react';
 import { Code, Smartphone, PenTool, TestTube, MoreHorizontal } from 'lucide-react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Footer } from '../Footer';
 
 const ServiceCard = ({ title, icon: Icon, description }) => (
   <div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
