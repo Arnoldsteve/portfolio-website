@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Navbar from "./Navbar";
 import '../App.css';
 import './Navbar.css';
+import { Footer } from '../Footer';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -30,7 +31,6 @@ const Contact = () => {
     return (
         <div className="bg-dark text-light min-vh-100 p-4">
             <div className="container">
-                <Navbar />
                 <main className="text-start">
                     <h1 className="mb-4">Contact Us</h1>
                     <form onSubmit={handleSubmit}>

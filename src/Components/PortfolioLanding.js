@@ -16,7 +16,6 @@ const PortfolioLanding = () => {
   return (
     <div className="bg-dark text-light min-vh-100 p-4">
       <div className="container">
-        <Navbar/>        
         <main className="text-start">
           <h1 className="display-3 fw-bold mb-4">Welcome.</h1>
           <div className="mb-5">
@@ -41,8 +40,6 @@ const PortfolioLanding = () => {
             </div>
           </div>
         </main>
-        {/* <Navbar/> */}
-        <Footer/>
       </div>
     </div>
   );

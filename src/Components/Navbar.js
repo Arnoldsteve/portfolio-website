@@ -13,13 +13,13 @@ const Navbar = () => {
     <span className="text-warning cursor-pointer">S</span>A
     </div>
 </Link>
-  <div className="navbar-center">
+  <div className="navbar-center ">
     <ul className="nav-links">
         <li>
             <a href="/">Home</a>
         </li>
         <li className="dropdown">
-            <a href="/services">Services</a>
+            <a href="/">Services</a>
             <ul className="dropdown-content">
               <li><Link to="/services/web-design">Web Design</Link></li>
               <li><Link to="/services/web-development">Web Developmemt</Link></li>
@@ -29,7 +29,7 @@ const Navbar = () => {
             </ul>
         </li>
         <li className="dropdown">
-            <a href="/projects">Projects</a>
+            <a href="/">Projects</a>
             <ul className="dropdown-content">
               <li><Link to="/projects/random-quote-machine">Random Quote Machine</Link></li>
               <li><Link to="/projects/weather-app">Weather App</Link></li>

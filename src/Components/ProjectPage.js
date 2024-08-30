@@ -17,7 +17,6 @@ const ProjectPage = () => {
   return (
     <div className="bg-dark text-light min-vh-100 p-4">
         <div className="container">
-            <Navbar/>
             <div id='body' className='text-center'>
                 <h1>{projectName}</h1>
                 {/* Add more project details here  random-quote-machine href="%PUBLIC_URL%/logo192.png"*/}
@@ -38,7 +37,6 @@ const ProjectPage = () => {
                     </p>
                 </div>
             </div>
-            <Footer/>
       </div>
     </div>
   );
