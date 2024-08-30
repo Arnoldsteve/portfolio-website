@@ -14,6 +14,7 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <PortfolioLanding/>
       <Routes>
         <Route path="/" element={<PortfolioLanding />} />
         <Route path="/projects/:projectName" element={<ProjectPage />} />
